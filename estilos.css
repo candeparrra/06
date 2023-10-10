@@ -6,10 +6,11 @@
     /* Permite que los elementos se envuelvan en líneas adicionales si no hay suficiente espacio */
     justify-content: center;
     /* Centra los elementos a lo largo del eje principal horizontal */
-    align-items:center;
+    align-items: center;
     /* Centra los elementos a lo largo del eje secundario vertical */
-    background-color: #ffcad4;
-    margin: 30px 30px 30px;
+    background-color: #e4e1e1;
+    margin-left: 100px;
+    margin-right: 100px;
 
 }
 
@@ -17,11 +18,12 @@
 header {
     display: flex;
     /* Establece el encabezado como un contenedor flex */
-    align-items:baseline;
+    align-items: baseline;
     /* Alinea los elementos del encabezado a lo largo de la línea de base */
     justify-content: space-between;
     /* Distribuye los elementos del encabezado de manera uniforme a lo largo del eje principal horizontal */
     padding: 25px;
+    margin-right: 9px;
 }
 
 .container-title {
@@ -34,8 +36,10 @@ header {
     text-align: center;
     margin-bottom: 20px;
     width: 100%;
-    
- 
+    font-family: 'Staatliches', sans-serif;
+    font-size: 25px;
+
+
 }
 
 .box {
@@ -44,6 +48,44 @@ header {
     text-align: center;
     width: 290px;
 }
-.imagen{
+
+.imagen {
     width: 100%;
+}
+
+.aside {
+    width: 150px;
+    justify-content: center;
+    align-content: center;
+}
+
+.imagengrande {
+    width: 500px;
+}
+
+.contenedor {
+    display: flex;
+}
+
+.boxgrande {
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    width: 500px;
+}
+
+aside ul {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+    font-family: 'Staatliches', sans-serif;
+
+}
+
+.aside2 {
+    margin-right: 30px;
 }
