@@ -8,22 +8,29 @@
     /* Centra los elementos a lo largo del eje principal horizontal */
     align-items: center;
     /* Centra los elementos a lo largo del eje secundario vertical */
-    background-color: #e4e1e1;
+    background-color: #ceb696;
     margin-left: 100px;
     margin-right: 100px;
+    margin-top: 100px;
 
+}
+body{
+    background-color: #fbf6ef
 }
 
 
 header {
+
+    padding: 25px;
+    margin-right: 9px;
+}
+
+.encabezado {
     display: flex;
     /* Establece el encabezado como un contenedor flex */
     align-items: baseline;
     /* Alinea los elementos del encabezado a lo largo de la línea de base */
     justify-content: space-between;
-    /* Distribuye los elementos del encabezado de manera uniforme a lo largo del eje principal horizontal */
-    padding: 25px;
-    margin-right: 9px;
 }
 
 .container-title {
@@ -33,8 +40,8 @@ header {
 }
 
 .container-image {
+    color: #0d3b66;
     text-align: center;
-    margin-bottom: 20px;
     width: 100%;
     font-family: 'Staatliches', sans-serif;
     font-size: 25px;
@@ -54,13 +61,15 @@ header {
 }
 
 .aside {
-    width: 150px;
     justify-content: center;
     align-content: center;
+    display: inline-flex;
+    width: 100%;
+    background-color:#0d3b66
 }
 
 .imagengrande {
-    width: 500px;
+    width: 100%;
 }
 
 .contenedor {
@@ -68,24 +77,33 @@ header {
 }
 
 .boxgrande {
-    padding: 10px;
     margin: 10px;
     text-align: center;
-    width: 500px;
+    width: 800px;
 }
 
-aside ul {
-    list-style-type: none;
-    text-decoration: none;
+ ul {
+    
+    display: inline-flex;
+    list-style: none;
+ 
+    
 }
 
 .link {
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
     font-family: 'Staatliches', sans-serif;
-
+margin-left: 100px;
+list-style: none;
 }
 
 .aside2 {
     margin-right: 30px;
+}
+.imagen1{
+    width: 500px;
+}
+.imagen-principal{
+    width: 100%;
 }
